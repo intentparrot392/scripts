@@ -27,14 +27,6 @@ local OrionLib = {
 	SaveCfg = false
 }
 
-local function GetIcon(IconName)
-	if Icons[IconName] ~= nil then
-		return Icons[IconName]
-	else
-		return nil
-	end
-end   
-
 local Orion = Instance.new("ScreenGui")
 Orion.Name = "Orion"
 if syn then
